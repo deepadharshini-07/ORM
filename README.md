@@ -31,6 +31,7 @@ from .models import bankloan,bankloanAdmin
 admin.site.register(bankloan,bankloanAdmin
 
 models.py
+
 from django.db import models
 from django.contrib import admin
 class bankloan(models.Model):
